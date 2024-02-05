@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/dice6.svg" />
+    <!-- CSS & JS -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Dice Game</title>
+  </head>
+  <body>
+    <button class="reset-button">Play Again?</button>
+    <div class="main-container">
+      <div class="player-container first-player-container">
+        <h1 class="player1-title player-title">Player 1</h1>
+      </div>
+      <div class="input-container player-title">
+        <input
+          class="winner-result"
+          type="text"
+          placeholder="Winner's Result"
+          readonly
+        />
+        <button class="roll-btn">Roll!</button>
+        <p class="winner">Winner:</p>
+      </div>
+      <div class="player-container second-player-container">
+        <h1 class="player2-title player-title">Player 2</h1>
+      </div>
+    </div>
+  </body>
+</html>
